@@ -2,7 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
-import { ProductModule } from './product/product.module';
+import { ProductsModule } from './products/products.module';
 import { HomeComponent } from './home/home.component';
 import { AppRoutingModule } from './app-routing.module';
 import { CoreModule } from './core/core.module';
@@ -15,7 +15,7 @@ import { CoreModule } from './core/core.module';
     BrowserModule,
     CoreModule,
     AppRoutingModule,
-    ProductModule
+    ProductsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
