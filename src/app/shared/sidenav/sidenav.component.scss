@@ -1,0 +1,44 @@
+:host {
+  box-shadow: 0 10px 30px -12px rgba(0, 0, 0, 0.42), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex: 0 0 260px;
+}
+
+.sidebar {
+    width: 100%;
+}
+
+.nav {
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+   li {
+    display: block;
+     a {
+      margin: 10px 15px 0;
+      border-radius: 3px;
+      color: #3C4858;
+      display: block;
+      padding: 10px 15px;
+    }
+    :hover {
+        background-color: #eee;
+    }
+  }
+ i {
+    font-size: 24px;
+    float: left;
+    margin-right: 15px;
+    line-height: 30px;
+    width: 30px;
+    text-align: center;
+    color: #a9afbb;
+ }
+
+ p {
+    margin: 0;
+    line-height: 30px;
+    font-size: 14px;
+ }
+}
+
