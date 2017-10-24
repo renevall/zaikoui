@@ -126,11 +126,10 @@ export const dbWarehouse: {[key: number]: Warehouse} = {
         transactionIDs: [1, 2, 3 , 4, 5, 6],
     },
     2: {
-        id: 2,
+        id: 1,
         name: 'Colorado',
         timestamp: new Date().getTime(),
         transactionIDs: [],
-
     },
 };
 
