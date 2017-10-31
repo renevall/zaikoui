@@ -175,6 +175,27 @@
   version "0.0.45"
   resolved "https://registry.yarnpkg.com/@schematics/angular/-/angular-0.0.45.tgz#830df863b9677c42d7220cfaf28741c06789f1e0"
 
+"@types/body-parser@*":
+  version "1.16.6"
+  resolved "https://registry.yarnpkg.com/@types/body-parser/-/body-parser-1.16.6.tgz#ccba8895337444e07f1134dab696edaf969b09a9"
+  dependencies:
+    "@types/express" "*"
+    "@types/node" "*"
+
+"@types/express-serve-static-core@*":
+  version "4.0.54"
+  resolved "https://registry.yarnpkg.com/@types/express-serve-static-core/-/express-serve-static-core-4.0.54.tgz#c4f8574d6bc5a616ccd7d60a196baef052f0c0b4"
+  dependencies:
+    "@types/node" "*"
+
+"@types/express@*", "@types/express@^4.0.38":
+  version "4.0.38"
+  resolved "https://registry.yarnpkg.com/@types/express/-/express-4.0.38.tgz#500e0524cb57ea8e3119efd5ca7ab8fca29ad9a5"
+  dependencies:
+    "@types/body-parser" "*"
+    "@types/express-serve-static-core" "*"
+    "@types/serve-static" "*"
+
 "@types/jasmine@*":
   version "2.6.0"
   resolved "https://registry.yarnpkg.com/@types/jasmine/-/jasmine-2.6.0.tgz#997b41a27752b4850af2683bc4a8d8222c25bd02"
@@ -189,6 +210,18 @@
   dependencies:
     "@types/jasmine" "*"
 
+"@types/lodash@^4.14.79":
+  version "4.14.79"
+  resolved "https://registry.yarnpkg.com/@types/lodash/-/lodash-4.14.79.tgz#125f9df9d8a1cc032c730681c62fb9efd74c0da7"
+
+"@types/mime@*":
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/@types/mime/-/mime-2.0.0.tgz#5a7306e367c539b9f6543499de8dd519fac37a8b"
+
+"@types/node@*":
+  version "8.0.47"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-8.0.47.tgz#968e596f91acd59069054558a00708c445ca30c2"
+
 "@types/node@^6.0.46", "@types/node@~6.0.60":
   version "6.0.89"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-6.0.89.tgz#154be0e6a823760cd6083aa8c48f952e2e63e0b0"
@@ -200,6 +233,13 @@
 "@types/selenium-webdriver@^2.53.35", "@types/selenium-webdriver@~2.53.39":
   version "2.53.42"
   resolved "https://registry.yarnpkg.com/@types/selenium-webdriver/-/selenium-webdriver-2.53.42.tgz#74cb77fb6052edaff2a8984ddafd88d419f25cac"
+
+"@types/serve-static@*":
+  version "1.7.32"
+  resolved "https://registry.yarnpkg.com/@types/serve-static/-/serve-static-1.7.32.tgz#0f6732e4dab0813771dd8fc8fe14940f34728b4c"
+  dependencies:
+    "@types/express-serve-static-core" "*"
+    "@types/mime" "*"
 
 abbrev@1:
   version "1.1.1"
@@ -618,7 +658,7 @@ bn.js@^4.0.0, bn.js@^4.1.0, bn.js@^4.1.1, bn.js@^4.4.0:
   version "4.11.8"
   resolved "https://registry.yarnpkg.com/bn.js/-/bn.js-4.11.8.tgz#2cde09eb5ee341f484746bb0309b3253b1b1442f"
 
-body-parser@1.18.2, body-parser@^1.16.1:
+body-parser@1.18.2, body-parser@^1.16.1, body-parser@^1.18.2:
   version "1.18.2"
   resolved "https://registry.yarnpkg.com/body-parser/-/body-parser-1.18.2.tgz#87678a19d84b47d859b83199bd59bce222b10454"
   dependencies:
@@ -1821,7 +1861,7 @@ exports-loader@^0.6.3:
     loader-utils "^1.0.2"
     source-map "0.5.x"
 
-express@^4.13.3:
+express@^4.13.3, express@^4.16.2:
   version "4.16.2"
   resolved "https://registry.yarnpkg.com/express/-/express-4.16.2.tgz#e35c6dfe2d64b7dca0a5cd4f21781be3299e076c"
   dependencies:
